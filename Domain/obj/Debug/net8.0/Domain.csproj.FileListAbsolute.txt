@@ -1,0 +1,11 @@
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Domain\obj\Debug\net8.0\ref\Domain.dll
