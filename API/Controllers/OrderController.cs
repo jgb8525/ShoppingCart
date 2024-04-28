@@ -6,17 +6,16 @@ namespace API.Controllers
 {
     public class OrderController : BaseController
     {
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetOrders(int id)
+        {
+            return HandleResult(await Mediator.Send(new List.Query { UserId = id }));
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateOrder(OrderDto order)
         {
             return HandleResult(await Mediator.Send(new Create.Command { Order = order }));
-        }
-
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Getorders(int id)
-        {
-            return HandleResult(await Mediator.Send(new List.Query { UserId = id }));
         }
     }
 }

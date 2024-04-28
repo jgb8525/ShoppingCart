@@ -15,3 +15,4 @@ C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCa
 C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\Application\obj\Debug\net8.0\Application.sourcelink.json

@@ -148,3 +148,4 @@ C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCa
 C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\API\bin\Debug\net8.0\MediatR.dll
 C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\jimmy\OneDrive\Personales\Courses\Sana Commerce\ShoppingCart\ShoppingCart\API\obj\Debug\net8.0\API.sourcelink.json

@@ -15,13 +15,12 @@ namespace Application.Orders.CQRS
             public int UserId { get; set; }
         }
 
-        public class Handler(DataContext context, IMapper mapper) : IRequestHandler<Query, Result<List<OrderDto>>>
+        public class Handler(DataContext context) : IRequestHandler<Query, Result<List<OrderDto>>>
         {
             private readonly DataContext _context = context;
-            private readonly IMapper _mapper = mapper;
 
             public async Task<Result<List<OrderDto>>> Handle(Query request, CancellationToken cancellationToken)
-            {                
+            {
                 var orders = await _context.Orders
                             .Where(or => or.Customer.Id == request.UserId)
                             .Include(p => p.OrderDetails)
@@ -50,7 +49,7 @@ namespace Application.Orders.CQRS
                             Quantity = det.Quantity
                         });
                     }
-                    
+
                     orderDto.Add(itemDto);
                 }
 

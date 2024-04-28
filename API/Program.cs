@@ -1,3 +1,4 @@
+using API.Middleware;
 using Application.Transversal;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -24,12 +25,14 @@ builder.Services.AddCors(opt =>
 });
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Application.Products.List).Assembly));
-        builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
+builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
 
-        builder.Services.AddFluentValidationAutoValidation();
-        builder.Services.AddValidatorsFromAssemblyContaining<Application.Products.CQRS.Create>();
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<Application.Products.CQRS.Create>();
 
 var app = builder.Build();
+//Handle error through
+app.UseMiddleware<HandleExceptionMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -46,9 +49,8 @@ var services = scope.ServiceProvider;
 try
 {
     var context = services.GetRequiredService<DataContext>();
-    
     await context.Database.MigrateAsync();
-    //await Seed.SeedData(context);
+    await LoadDataDefault.LoadData(context);
 }
 catch (Exception ex)
 {
